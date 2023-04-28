@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/Vector.png" alt="">
+    </header>
+
+    <main>
+        <div class="div-main">
+            <section class="section-textarea">
+                <textarea  name="" id="textoUm" cols="40" rows="10" placeholder="Digite seu texto"></textarea>
+            </section>
+    
+            <section>
+                <p>&copy; Apenas letras minúsculas e sem acento.</p>
+    
+                <button onclick="btnCriptografar()">Criptografar</button>
+                <button onclick="btnDescriptografar()">Descriptografar</button>
+            </section>
+        </div>
+
+        <section class="section-mostrar-resultado">
+            <textarea name="" id="textoDois" cols="30" rows=""></textarea>
+            <img class="img-resultado" src="img/boneco.svg" alt="">
+            <h4>Nem uma mensagem encontrada</h4>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="p-footer">Challenge - Programa de formação ONE.</p>
+    </footer>
+ 
+
+    <script src="main.js"></script>
+</body>
+</html>
